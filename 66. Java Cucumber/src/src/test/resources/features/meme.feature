@@ -6,3 +6,4 @@ Feature: meme feature
     | olong johnson | 1        |
     | classic angus | 3        |
     When the user request all the memes
+    Then all the memes are returned
